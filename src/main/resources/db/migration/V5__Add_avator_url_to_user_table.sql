@@ -1,0 +1,1 @@
+alter table user add column avatar_url varchar(100) not null default  '' comment '用户头像地址' after bio;
